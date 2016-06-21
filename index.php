@@ -54,7 +54,7 @@
 	</script>
 </head>
 <body class="container" ng-app="dataApp" ng-controller="dataCon" >
-	
+	<br><br>
 	<div class="row">
 
 		<div class="col-lg-6">
@@ -92,19 +92,14 @@
 	        错误：{{ errorInfo }}<br>
 
 	</div>
-
-<?php 
-/*include 'getData.php';
-
-$res="";
-
-$gd= new getData;
-
-$res=$gd->text();
-
-echo($res);*/
-
-?>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li>s</li>
+	</ul>
 	
 
 </body>
